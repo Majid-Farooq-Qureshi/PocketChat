@@ -1,4 +1,5 @@
 # Svelte + TS + Vite
+![Svelte](https://img.shields.io/badge/Svelte-FF3E00?style=for-the-badge&logo=svelte&logoColor=white)
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
 
