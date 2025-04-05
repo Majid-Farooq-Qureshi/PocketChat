@@ -21,9 +21,7 @@
 }
 
   
-    function handleLogout() {
-        logout();
-    }
+    
   </script>
   
   {#if $currentUser}
