@@ -2,6 +2,7 @@
   import { currentUser, logout } from './lib/pocketbase';
   import Login from './lib/Login.svelte';
   import Signup from './lib/Signup.svelte';
+  import Messages from './lib/messages.svelte'; // Updated to match the actual file name
 
   let showSignup = false; // Toggle between Login and Signup
 </script>
@@ -10,7 +11,7 @@
 <h1>Pocket Chat</h1>
 {#if $currentUser}
 <p>Welcome, {$currentUser?.name}!</p>
-  <button on:click={logout}>Logout</button>
+  <Messages />
 {:else}
   {#if showSignup}
     <Signup />

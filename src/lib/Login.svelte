@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
     import { login, logout, currentUser } from './pocketbase';
     import { get } from 'svelte/store';
   
